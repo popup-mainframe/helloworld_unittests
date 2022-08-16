@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.10.3.v20220524-1628_164?>
+<!--Topaz for Total Test 20.10.3.v20220524-1628_164 2 Aug, 2022 3:38:55 PM-->
+<testscenario:testscenario xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Tests/Scenarios/PGM01_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="PGM01" encoding="1047" entrypoint="PGM01#C" id="Unit%20Tests/Scenarios/PGM01_Scenario.testscenario%23PGM01Case1" target="PGM01">
+      <testcase:description></testcase:description>
+      <testcase:ddio>ISPW.PLAY.DEV1.LOAD</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1659310103000</testcase:targetCaptureCompileTime>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/PGM01_RETURN-CODE.listructure#Unit%20Tests/Structures/PGM01_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PGM01_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">200D</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PGM01</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
